@@ -99,7 +99,7 @@ a.boxed-option-items { color: #000; }
 
 .boxed-option-item { position: relative; background: #fff; display: block; padding: 15px; color: #000; font-weight: bold; text-decoration: none; width: 190px; text-align: center; margin: 90px 0 0 1.38889%; }
 
-.sp2 { margin: 55px 0 0 220px; }
+.sp2 { margin: 40px 0 0 180px; }
 
 .sp4 { width: 160px; }
 
@@ -189,7 +189,7 @@ footer { right: -100px; top: 50%; font-size: 12px; z-index: 100; position: fixed
   .modal-header .close { position: relative; } }
 .sp3 { max-width: 1200px; margin: 0 auto; }
 
-.containerBOX { width: 1200px; padding-top: 8%; max-width: 100%; margin-left: auto; margin-right: auto; }
+.containerBOX { width: 1200px; padding-top: 5%; max-width: 100%; margin-left: auto; margin-right: auto; }
 .containerBOX:after { content: " "; display: block; clear: both; }
 
 .containerBOX-1 { background: #fff; }
@@ -197,7 +197,7 @@ footer { right: -100px; top: 50%; font-size: 12px; z-index: 100; position: fixed
 .leftbox { width: 43.05556%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; text-align: right; margin-right: 0; }
 .leftbox p { font-size: 500px; color: #000; font-weight: 700; font-family: 'Roboto Condensed', sans-serif; position: relative; }
 
-.rightbox { width: 51.38889%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; padding-top: 10%; }
+.rightbox { width: 51.38889%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; padding-top: 6%; }
 .rightbox p.namebox { animation-delay: .3s; font-family: 'Play', sans-serif; letter-spacing: 3px; display: inline-block; padding: 10px 20px 9px 0; font-size: 60px; color: #000; font-weight: bold; margin-bottom: 10px; background: #ffda0f; }
 .rightbox p.namebox i:nth-of-type(1), .rightbox p.namebox i:nth-of-type(2) { background: #fff; padding: 5px 0; }
 .rightbox p.namebox span { color: #fff; padding: 0 5px; font-size: 40px; vertical-align: middle; font-family: 'Roboto Condensed', sans-serif; }
@@ -252,7 +252,7 @@ footer { right: -100px; top: 50%; font-size: 12px; z-index: 100; position: fixed
 .worksouter { margin-top: 0; background: #fff; }
 .worksouter .works h2 { font-size: 40px; color: #000; display: inline-block; border-bottom: 5px solid #ffda0f; font-weight: bold; padding-bottom: 10px; margin-bottom: 10px; }
 .worksouter .works p { line-height: 1.8; }
-.worksouter .works img { margin-top: 25px; max-width: 1200px; width: 100%; display: block; outline: none; }
+.worksouter .works img { margin-top: 25px; max-width: 1400px; width: 100%; display: block; outline: none; }
 .worksouter .pic7 { max-width: 1200px; margin: 0 auto; }
 .worksouter .pic7 img { width: 47.22222%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; margin: gutter auto; }
 .worksouter .pic8 { max-width: 1200px; margin: 0 auto; }
