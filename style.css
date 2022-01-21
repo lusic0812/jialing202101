@@ -130,25 +130,10 @@ a.boxed-option-items { color: #000; }
 .boxed-option-item.show-line.active .arrow:after, .boxed-option-item.show-line:hover .arrow:after { width: 5.2rem; transition-delay: .2s; }
 
 .boxed-option-item.show-line.active .arrow:before, .boxed-option-item.show-line:hover .arrow:before { width: 16px; transition-delay: .2s; }
+.infoinside h3{font-size:1.2em;font-weight:700;color:#fff;display:inline;background:#000;padding:0 5px}.infoinside span{font-size:1em;margin:0 10px;color:#000;font-weight:700}.infoinside h5.title{font-size:1.2em;color:#2fb1cd;margin-bottom: 60px;font-weight: 500;line-height: 1.5}.infoinside h5{color:#000;font-weight:700;margin-top: 5px}.conttext{line-height:1.8;font-size:1em;max-width:500px;width:100%;padding-top:10px}
 
 
-.infoinside h3{
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #fff;
-  display: inline;
-  background: #000;
-  padding: 0 5px;
-}
-
-.infoinside h5{
-  font-size: 1em;
-  color:#33afdf;
-}
-
-
-
-@media (max-width: 769px) { .boxed-option-item { margin: 50px auto; } }
+@media (max-width: 769px){.boxed-option-item{margin:50px auto}.conttext{max-width:200px}.leftbox-e .info{max-width:260px}}
 html, body { width: 100%; min-height: 100%; height: 100%; margin: 0; font-family: "Open Sans", "Microsoft JhengHei"; background: #fff; font-size: 14px; color: #898a8a; background: url(../images/r.png) no-repeat right bottom; background-size: 20% auto; background-attachment: fixed; }
 
 .warpBOX { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; min-height: 100%; background-image: url(../images/l.png), url(../images/line.png); background-repeat: no-repeat, no-repeat; background-position: left 22%, 50% 50%; background-size: auto 25%, cover; overflow: hidden; }
@@ -197,14 +182,14 @@ footer { right: -100px; top: 50%; font-size: 12px; z-index: 100; position: fixed
 
 .containerBOX-1 { background: #fff; }
 
-.leftbox { width: 43.05556%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; text-align: right; margin-right: 0; }
+.leftbox { width: 39.05556%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; text-align: right; margin-right: 0; }
 .leftbox p { font-size: 500px; color: #000; font-weight: 700; font-family: 'Roboto Condensed', sans-serif; position: relative; }
 
-.rightbox { width: 51.38889%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; padding-top: 6%; }
+.rightbox { width: 47.38889%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; padding-top: 6%; }
 .rightbox p.namebox { animation-delay: .3s; font-family: 'Play', sans-serif; letter-spacing: 3px; display: inline-block; padding: 10px 20px 9px 0; font-size: 60px; color: #000; font-weight: bold; margin-bottom: 10px; background: #ffda0f; }
 .rightbox p.namebox i:nth-of-type(1), .rightbox p.namebox i:nth-of-type(2) { background: #fff; padding: 5px 0; }
 .rightbox p.namebox span { color: #fff; padding: 0 5px; font-size: 40px; vertical-align: middle; font-family: 'Roboto Condensed', sans-serif; }
-.rightbox p:nth-of-type(2) { font-size: 16px; color: #000; margin-bottom: 35px; }
+.rightbox p:nth-of-type(2) { font-size: 16px; color: #000; font-weight:bold; }
 .rightbox .explist { line-height: 1.8; margin-top: 25px; animation-delay: .4s; }
 .rightbox .boxed-option-items { animation-delay: .6s; }
 .rightbox button.btnstyle { margin: 10% 0 0 40%; }
@@ -215,10 +200,10 @@ footer { right: -100px; top: 50%; font-size: 12px; z-index: 100; position: fixed
 .leftbox-e > h2 { font-size: 40px; color: #000; font-weight: bold; position: relative; }
 .leftbox-e > h2::before { content: url(../images/exprice-bg.png); position: absolute; left: -35px; top: -47px; }
 .leftbox-e > h2 span { font-size: 12px; background: #000; padding: 5px 10px; color: #fff; font-weight: normal; position: relative; top: -10px; letter-spacing: 2px; letter-spacing: 2px; margin-left: 10px; }
-.leftbox-e > ul { line-height: 1.8; margin-top: 25px; color: #42bdd8; font-size: 16px; }
+.leftbox-e > ul { line-height: 1.4; margin-top: 25px; color: #42bdd8; font-size: 16px; }
 .leftbox-e > ul span { color: #91cad6; }
 .leftbox-e .info { margin-top: 30px; line-height: 1.6; text-align: justify; }
-.leftbox-e .info p { padding-bottom: 20px; line-height: 1.6; }
+.leftbox-e .info p { padding: 5px 0 20px; line-height: 1.6; }
 
 .rightbox-e { width: -2.77778%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; margin: 5% 0 0 0; }
 .rightbox-e .background-cover { position: absolute; width: 100%; height: 100%; background-size: cover; }
@@ -294,7 +279,7 @@ a.waves-effect .waves-ripple { z-index: -1; }
   .warpBOX { background: none; overflow: hidden; }
   footer { right: inherit; top: inherit; left: 10px; bottom: 10px; margin: 0 0 10px 10px; -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg); }
   .leftbox { width: 30.55556%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; }
-  .leftbox p { font-size: 450px; font-weight: 400; margin: -50px 0 0 -100px; }
+  .leftbox p { font-size: 450px; font-weight: 400; margin: -20px 0 0 -100px; }
   .leftbox p:before { height: 0; }
   .rightbox { width: 63.88889%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; }
   .rightbox p.namebox { padding: 0; font-size: 40px; }
