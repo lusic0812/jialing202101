@@ -89,7 +89,7 @@ a.boxed-option-items { display: block; text-decoration: none; outline: none; }
 
 .leftbox-e > h2::after, .rightbox-w > h2::after { content: ''; position: absolute; left: -55px; top: 50%; width: 50px; height: 4px; background: #000; }
 
-.worksouter .works { display: -webkit-flex; display: flex; -webkit-justify-content: center; justify-content: center; }
+.worksouter .works{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;flex-direction:column;flex-wrap:nowrap;align-items:center}
 
 .leftbox p::before { position: absolute; bottom: 15px; left: 50%; width: 50%; height: 18px; background: #ffda0f; content: " "; display: inline-block; }
 
@@ -130,7 +130,7 @@ a.boxed-option-items { color: #000; }
 .boxed-option-item.show-line.active .arrow:after, .boxed-option-item.show-line:hover .arrow:after { width: 5.2rem; transition-delay: .2s; }
 
 .boxed-option-item.show-line.active .arrow:before, .boxed-option-item.show-line:hover .arrow:before { width: 16px; transition-delay: .2s; }
-.infoinside h3{font-size:1.2em;font-weight:700;color:#fff;display:inline;background:#000;padding:0 5px}.infoinside span{font-size:1em;margin:0 10px;color:#000;font-weight:700}.infoinside h5.title{font-size:1.2em;color:#2fb1cd;margin-bottom: 60px;font-weight: 500;line-height: 1.5}.infoinside h5{color:#000;font-weight:700;margin-top: 5px}.conttext{line-height:1.8;font-size:1em;max-width:500px;width:100%;padding-top:10px}
+.infoinside h3{font-size:1em;font-weight:700;color:#fff;display:inline;background:#000;padding:2px 6px}.infoinside span{font-size:1em;margin:0 10px;color:#000;font-weight:700}.infoinside h5.title{font-size:1.2em;color:#2fb1cd;margin-bottom: 25px;font-weight: 500;line-height: 1.5}.infoinside h5{color:#000;font-weight:700;margin-top: 5px}.conttext{line-height:1.8;font-size:1em;max-width:500px;width:100%;padding-top:10px}
 
 
 @media (max-width: 769px){.boxed-option-item{margin:50px auto}.conttext{max-width:200px}.leftbox-e .info{max-width:260px}}
@@ -197,7 +197,7 @@ footer { right: -100px; top: 50%; font-size: 12px; z-index: 100; position: fixed
 
 .mt-5 { margin-top: 5%; }
 
-.leftbox-e { width: 97.22222%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; padding: 50px 60px 0 140px; margin: 0; }
+.leftbox-e { max-width:950px; width: 97.22222%; margin-left: 1.38889%; margin-right: 1.38889%; padding: 50px 60px 0 140px; margin: 0 auto; }
 .leftbox-e > h2 { font-size: 40px; color: #000; font-weight: bold; position: relative; }
 .leftbox-e > h2::before { content: url(../images/exprice-bg.png); position: absolute; left: -35px; top: -47px; }
 .leftbox-e > h2 span { font-size: 12px; background: #000; padding: 5px 10px; color: #fff; font-weight: normal; position: relative; top: -10px; letter-spacing: 2px; letter-spacing: 2px; margin-left: 10px; }
@@ -242,7 +242,7 @@ footer { right: -100px; top: 50%; font-size: 12px; z-index: 100; position: fixed
 .worksouter { margin-top: 0; background: #fff; }
 .worksouter .works h2 { font-size: 40px; color: #000; display: inline-block; border-bottom: 5px solid #ffda0f; font-weight: bold; padding-bottom: 10px; margin-bottom: 10px; }
 .worksouter .works p { line-height: 1.8; }
-.worksouter .works img { margin-top: 25px; max-width: 1400px; width: 100%; display: block; outline: none; }
+.worksouter .works img { margin-top: 25px; max-width: 1200px; width: 100%; display: block; outline: none; }
 .worksouter .pic7 { max-width: 1200px; margin: 0 auto; }
 .worksouter .pic7 img { width: 47.22222%; float: left; margin-left: 1.38889%; margin-right: 1.38889%; margin: gutter auto; }
 .worksouter .pic8 { max-width: 1200px; margin: 0 auto; }
